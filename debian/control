@@ -1,0 +1,17 @@
+Source: i2c-piix4-aura-dkms
+Section: unknown
+Priority: optional
+Maintainer: crt0mega <crt0mega@c-r-t.tk>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/i2c-piix4-aura-dkms-5.4.6
+#Vcs-Git: https://salsa.debian.org/debian/i2c-piix4-aura-dkms-5.4.6.git
+
+Package: i2c-piix4-aura-dkms
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms
+Description: The i2c-piix4 kernel driver, patched to be used with OpenRGB
+ i2c-piix4 needs a patch to enable a second SMBUS controller (see
+ Bug 202587 at Kernel.org Bugzilla). This package provides a patched module
+ ready for DKMS as well as some helper files found at Archlinux' AUR.

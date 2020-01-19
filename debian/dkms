@@ -1,0 +1,6 @@
+PACKAGE_NAME="i2c-piix4-aura"
+PACKAGE_VERSION="5.4.6"
+BUILT_MODULE_NAME[0]="i2c-piix4"
+MAKE[0]="make"
+DEST_MODULE_LOCATION[0]="/kernel/drivers/i2c/busses"
+AUTOINSTALL="yes"

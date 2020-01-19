@@ -1,0 +1,6 @@
+The Debian Package i2c-piix4-aura-dkms
+----------------------------
+
+See Bug 202587 at Kernel.org Bugzilla for more information
+
+ -- crt0mega <crt0mega@c-r-t.tk>  Sun, 19 Jan 2020 21:18:11 +0100

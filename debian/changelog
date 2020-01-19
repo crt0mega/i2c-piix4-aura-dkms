@@ -1,0 +1,5 @@
+i2c-piix4-aura-dkms (5.6.4) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- crt0mega <crt0mega@c-r-t.tk>  Sun, 19 Jan 2020 21:18:11 +0100
