@@ -1,4 +1,0 @@
-./src/Makefile
-./src/i2c-piix4.c
-./src/90-i2c-aura.rules
-./src/i2c-aura.conf
