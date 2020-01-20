@@ -1,1 +1,9 @@
 debian/debhelper*
+debian/.debhelper
+debian/*.log
+debian/*.debhelper
+debian/*.substvars
+debian/debhelper-build-stamp
+debian/i2c-piix4-aura-dkms
+debian/files
+
