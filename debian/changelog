@@ -1,4 +1,4 @@
-i2c-piix4-aura-dkms (5.6.4) unstable; urgency=medium
+openrgb-dkms-drivers (5.6.4) unstable; urgency=medium
 
   * Initial Release.
 
