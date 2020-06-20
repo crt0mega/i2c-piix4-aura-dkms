@@ -5,8 +5,8 @@ The original idea of patching and packaging this module was *lend* from the pack
 ## Usage
 Clone this repository and run `dpkg-buildpackage -us -uc -b`. Install the resulting package with `sudo dpkg -i path/to.deb`.
 To have OpenRGB controlling your LEDs you either need to add your user to the group `adm` or simply run OpenRGB as root. I'd rather not recommend to run any GUI application with root privileges.
-THX
 ## Thanks to 
 - [CalcProgrammer1](https://gitlab.com/CalcProgrammer1) for his awesome work on OpenAuraSDK/OpenRGB and his fix for i2c-piix4,
 - Térence Clastres for the awesome idea of squeezing this patch into a DKMS package and
 - my gf for sharing and supporting my obsession with RGB LED stuff and Linux.
+- [SurfsideShip264](https://www.reddit.com/user/SurfsideShip264/) for pointing out an issue with the build-dependencies
