@@ -18,9 +18,14 @@ VERSION=$(shell dpkg-parsechangelog |grep ^Version:|cut -d ' ' -f 2)
 	dh $@ --with dkms
 
 override_dh_install:
-	dh_install src/Makefile src/i2c-piix4.c usr/src/i2c-piix4-aura-$(VERSION)/
-	dh_install src/90-i2c-aura.rules lib/udev/rules.d/
-	dh_install src/i2c-aura.conf usr/lib/modules-load.d/
+	# i2c-piix4 source
+	dh_install src/Makefile src/i2c-piix4.c usr/src/openrgb-dkms-drivers-$(VERSION)/
+
+	# i2c-nct6775 source
+	dh_install src/Makefile src/i2c-nct6775.c usr/src/openrgb-dkms-drivers-$(VERSION)/
+
+	# modules-load configuration
+	dh_install src/i2c-openrgb.conf usr/lib/modules-load.d/
 
 override_dh_dkms:
 	dh_dkms -V $(VERSION)
