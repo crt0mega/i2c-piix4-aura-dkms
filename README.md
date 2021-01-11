@@ -1,5 +1,9 @@
 # openrgb-dkms-drivers
 
+# Deprecation notice
+
+I'm moving away from GitHub. You will find this [repository](https://git.c-r-t.tk/crt0mega/i2c-piix4-aura-dkms) at my [Gitea](https://git.c-r-t.tk/crt0mega).
+
 ## Intro
 This repository contains OpenRGB's i2c-piix4 and i2c-nct6775 drivers as DKMS kernel modules.  The i2c-piix4 driver supports the secondary i2c controller on several >= X370 AM4 mainboards. This package is designed for Debian Unstable but might work with earlier versions of Debian, mileage may vary. It is designed as a soft dependency for future packaged versions of [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) to enable access to RGB controllers on certain mainboards, namely boards with ASUS Aura and ASRock Polychrome RGB systems.
 
